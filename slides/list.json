@@ -5,5 +5,17 @@
         "background.html",
         "background2.html"
     ],
-    "es6-today.html"
+    "es6-today.html",
+    "let.html",
+    "const.html",
+    "arrow-functions.html",
+    "object-literals.html",
+    "classes.html",
+    "default-parameters.html",
+    "rest-parameters.html",
+    "spread-operator.html",
+    "template-strings.html",
+    "tagged-template-strings.html",
+    "destructuring.html",
+    "modules.html"
 ]
