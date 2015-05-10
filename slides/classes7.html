@@ -1,0 +1,18 @@
+<code>
+    <pre>
+    class Foo {
+      constructor(bar) {
+        this.bar = bar;
+      }
+    }
+
+    <span class="fragment">class FooBar extends Foo {
+      constructor(bar) {
+        super(bar);
+      }
+    }</span>
+
+    <span class="fragment">let fooBar = new FooBar('baz');</span>
+    <span class="fragment">console.log(fooBar.bar); // baz</span>
+    </pre>
+</code>
