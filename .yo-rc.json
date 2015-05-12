@@ -1,6 +1,6 @@
 {
   "generator-reveal": {
-    "presentationTitle": "ECMAScript 6 Here and Now",
+    "presentationTitle": "ECMAScript 6 In Depth - Part 1",
     "packageVersion": "0.0.0",
     "revealTheme": "default",
     "useSass": false,

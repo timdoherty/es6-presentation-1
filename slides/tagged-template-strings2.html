@@ -1,0 +1,17 @@
+<code>
+    <pre>
+    let name = 'Dave';
+
+    function upper(strs, ...vals) {
+      return strs.reduce(function (p, c, i) {
+        if (i > 0) {
+          p += vals[i-1].toUpperCase();
+        }
+        return p + c;
+      }, '');
+    }
+
+    let greet = upper`Good morning ${name}`;
+    <span class="fragment">console.log(greet); // Good morning DAVE</span>
+    </pre>
+</code>

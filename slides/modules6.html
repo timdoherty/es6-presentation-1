@@ -1,0 +1,18 @@
+<code>
+    <pre>
+    // load one module (with ES6 promises)
+    System.import('myModule')
+    .then(myModule => {
+      // use myModule
+    });
+
+    <span class="fragment">// load multiple modules
+    Promise.all(
+      ['m1', 'm2', 'm3'].
+      map(m => System.import(m)))
+    .then(([m1, m2, m3]) => {
+      // use m1, m2, m3
+    });
+    </span>
+    </pre>
+</code>

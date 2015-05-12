@@ -1,0 +1,14 @@
+<code>
+    <pre>
+    // only valid as last parameter
+    function f(...rest, arg) {} // SyntaxError
+
+    <span class="fragment">// arguments object vs. rest params
+    function foo(...args) {
+      console.log(arguments.length);
+      console.log(args.length);
+    }</span>
+
+    <span class="fragment">foo(1, 2); // 0, 2</span>
+    </pre>
+</code>
