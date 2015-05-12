@@ -1,0 +1,13 @@
+<code>
+    <pre>
+    // ES5
+    var obj = {
+      total: 0,
+      addNums: function (nums) {
+        nums.forEach(function (num) {
+          this.total += num;
+        }, this);
+      }
+    }
+    </pre>
+</code>

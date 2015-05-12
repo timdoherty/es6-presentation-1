@@ -1,0 +1,12 @@
+<code>
+    <pre>
+    function get(url, cb=Function.prototype) {
+      $.get(url, cb);
+    }
+
+    <span class="fragment">let cb = data => { console.log(data); };</span>
+
+    <span class="fragment">get('/foo', cb); // '/foo' response</span>
+    <span class="fragment">get('/foo');     // no-op</span>
+    </pre>
+</code>

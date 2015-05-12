@@ -1,0 +1,10 @@
+<p>const locks assignment only, not value</p>
+<code>
+    <pre>
+    <span class="fragment">const foo = [1, 2, 3];</span>
+    <span class="fragment">console.log(foo); // [1, 2, 3]</span>
+    <span class="fragment">foo = [4, 5]; // TypeError</span>
+    <span class="fragment">foo.concat([4, 5]);</span>
+    <span class="fragment">console.log(foo); // [1, 2, 3, 4, 5]</span>
+    </pre>
+</code>

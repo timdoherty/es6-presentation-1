@@ -1,0 +1,16 @@
+<code>
+    <pre>
+    // static methods
+    class Foo {
+      constructor(bar) {
+        this.bar = bar;
+      }
+      static baz() {
+      }
+    }
+
+    let foo = new Foo('bar');
+    <span class="fragment">Foo.baz()  // ok</span>
+    <span class="fragment">foo.baz(); // undefined</span>
+    </pre>
+</code>
