@@ -1,5 +1,5 @@
 [
-    "index.md",
+    "index.html",
     "ecmawhat.html",
     [
         "background.html",
@@ -41,6 +41,7 @@
     [
         "default-parameters.html",
         "default-parameters2.html",
+        "default-parameters4.html",
         "default-parameters3.html"
     ],
     "dot-dot-dot.html",

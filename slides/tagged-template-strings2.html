@@ -1,7 +1,5 @@
 <code>
     <pre>
-    let name = 'Dave';
-
     function upper(strs, ...vals) {
       return strs.reduce(function (p, c, i) {
         if (i > 0) {
@@ -11,7 +9,11 @@
       }, '');
     }
 
-    let greet = upper`Good morning ${name}`;
-    <span class="fragment">console.log(greet); // Good morning DAVE</span>
+    <span class="fragment">let him = 'Dave', me = 'Hal';
+    let str = upper`Hello ${him}, it's ${me}`;
+    console.log(str); // Hello DAVE, it's HAL</span>
     </pre>
 </code>
+
+<aside class="notes">
+</aside>

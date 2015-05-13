@@ -1,0 +1,14 @@
+<code>
+    <pre>
+    function f({foo='fee', bar='baz'}={}) {
+      console.log(foo + ', ' + bar);
+    }
+
+    <span class="fragment">f({foo: 'fum', bar: 'bim'}); // fum, bim</span>
+    <span class="fragment">f({foo: 'fum'}); // fum, baz</span>
+    <span class="fragment">f(); // fee, baz</span>
+    </pre>
+</code>
+
+<aside class="notes">
+</aside>

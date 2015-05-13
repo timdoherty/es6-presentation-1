@@ -1,14 +1,13 @@
 <code>
     <pre>
-    // only valid as last parameter
-    function f(...rest, arg) {} // SyntaxError
+    function f(arg, ...rest) {} // ok
 
-    <span class="fragment">// arguments object vs. rest params
-    function foo(...args) {
-      console.log(arguments.length);
-      console.log(args.length);
-    }</span>
+    <span class="fragment">function f(arg1, arg2, ...rest) {} // ok</span>
 
-    <span class="fragment">foo(1, 2); // 0, 2</span>
+    <span class="fragment">function f(...rest, arg) {} // SyntaxError</span>
+
     </pre>
 </code>
+
+<aside class="notes">
+</aside>
