@@ -1,15 +1,17 @@
 <code>
     <pre>
-    // ES5
-    function Foo(bar) {
-      this.bar = bar;
+    class Foo {
+      constructor(bar) {
+        this.bar = bar;
+      }
+      static baz() {
+      }
     }
 
-    Foo.prototype.baz = function() {
-    }
-
-    var foo = new Foo('bar');
-   </pre>
+    let foo = new Foo('bar');
+    <span class="fragment">Foo.baz()  // ok</span>
+    <span class="fragment">foo.baz(); // undefined</span>
+    </pre>
 </code>
 
 <aside class="notes">

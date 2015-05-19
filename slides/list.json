@@ -2,6 +2,10 @@
     "index.html",
     "ecmawhat.html",
     [
+        "why-javascript.html",
+        "why-javascript2.html"
+    ],
+    [
         "background.html",
         "background2.html"
     ],
@@ -13,30 +17,32 @@
         "let2.html",
         "let3.html",
         "const.html",
-        "const2.html"
+        "const2.html",
+        "block-scoped-functions.html"
     ],
     [
         "arrow-functions.html",
         "arrow-functions2.html",
-        "arrow-functions3.html",
         "arrow-functions4.html",
-        "arrow-functions6.html",
         "arrow-functions7.html",
+        "arrow-functions6.html",
         "arrow-functions5.html"
     ],
     [
         "object-literals.html",
         "object-literals2.html",
-        "object-literals3.html"
+        "object-literals3.html",
+        "object-literals4.html"
     ],
     [
         "classes.html",
+        "classes2.html",
+        "classes3.html",
         "classes4.html",
         "classes5.html",
         "classes6.html",
         "classes7.html",
-        "classes2.html",
-        "classes3.html"
+        "classes8.html"
     ],
     [
         "default-parameters.html",
@@ -71,7 +77,8 @@
         "template-strings2.html",
         "template-strings3.html",
         "tagged-template-strings.html",
-        "tagged-template-strings2.html"
+        "tagged-template-strings2.html",
+        "tagged-template-strings3.html"
     ],
     [
         "modules.html",
@@ -83,5 +90,6 @@
         "modules7.html"
     ],
     "questions.html",
+    "resources.html",
     "conclusion.html"
 ]

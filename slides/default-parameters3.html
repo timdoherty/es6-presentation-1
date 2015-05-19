@@ -1,15 +1,17 @@
 <code>
     <pre>
-    function get(url, cb=Function.prototype) {
-      $.get(url, cb);
+    function f(arg, cb=Function.prototype) {
+      // do something...
+      cb(arg);
     }
 
-    let cb = data => { console.log(data); };
+    let myCb = x => { console.log(x); };
 
-    <span class="fragment">get('/foo', cb); // '/foo' response</span>
-    <span class="fragment">get('/foo');     // no-op</span>
+    <span class="fragment">f('foo', myCb); // foo</span>
+    <span class="fragment">f('foo');       // no-op</span>
     </pre>
 </code>
 
 <aside class="notes">
+    better example, this is too contrived
 </aside>
