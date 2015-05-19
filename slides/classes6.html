@@ -1,17 +1,14 @@
 <code>
     <pre>
-    // static methods
-    class Foo {
-      constructor(bar) {
-        this.bar = bar;
-      }
-      static baz() {
-      }
+    class Foo extends Array{
+      first() { return this[0]; }
+      last() { return this[this.length - 1]; }
     }
 
-    let foo = new Foo('bar');
-    <span class="fragment">Foo.baz()  // ok</span>
-    <span class="fragment">foo.baz(); // undefined</span>
+    <span class="fragment">let foo = new Foo(1, 2, 3);</span>
+    <span class="fragment">foo.first(); // 1</span>
+    <span class="fragment">foo.last(); // 3</span>
+    <span class="fragment">foo instanceof Array // true</span>
     </pre>
 </code>
 

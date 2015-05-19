@@ -1,17 +1,23 @@
 <code>
     <pre>
-    // ES6
     class Foo {
       constructor(bar) {
         this.bar = bar;
       }
-      baz() {
+    }
+
+    class FooBar extends Foo {
+      constructor(bar) {
+        super(bar);
       }
     }
 
-    let foo = new Foo('bar');
+    let fooBar = new FooBar('baz');
+    <span class="fragment">console.log(fooBar.bar); // baz</span>
+    <span class="fragment">fooBar instanceof Foo // true</span>
     </pre>
 </code>
 
 <aside class="notes">
+    Mention getters / setters, avaiable on objects in ES5
 </aside>

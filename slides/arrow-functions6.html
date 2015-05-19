@@ -1,16 +1,40 @@
 <code>
     <pre>
     // ES5
-    var obj = {
-      total: 0,
-      addNums: function (nums) {
-        nums.forEach(function (num) {
-          this.total += num;
-        }, this);
-      }
+    function Widget() {
+      var that = this;
+      var b = document.querySelector('#btn1');
+      b.addEventListener('click', function() {
+        that.someMethod();
+      });
     }
+
+    <span class="fragment">// ES6
+    function Widget() {
+      let b = document.querySelector('#btn1');
+      b.addEventListener('click', () => {
+        this.someMethod();
+      });
+    }</span>
+    <!--var obj = {-->
+      <!--total: 0,-->
+      <!--// ES5-->
+      <!--addNums: function (nums) {-->
+        <!--var that = this;-->
+        <!--nums.forEach(function (num) {-->
+          <!--that.total += num;-->
+        <!--});-->
+      <!--}-->
+      <!--<span class="fragment">// ES6-->
+      <!--addNums(nums) {-->
+        <!--nums.forEach(num => {-->
+          <!--this.total += num;-->
+        <!--});-->
+      <!--}</span>-->
+    <!--}-->
     </pre>
 </code>
 <aside class="notes">
-    Can this be combined with next slide?
+    .forEach() takes an optional 2nd 'this' param, example is
+    to make a point only
 </aside>

@@ -1,0 +1,19 @@
+<code>
+    <pre>
+    function raw(strs, ...vals) {
+      console.log(strs);
+      console.log(strs.raw);
+    }
+
+    <span class="fragment">raw`Foo\nBar`;
+    // ["Foo<sub>↵</sub>Bar"]
+    // ["Foo\nBar"]
+
+    <span class="fragment">console.log(String.raw('Foo\nBar'));
+    // "Foo\nBar"</span>
+    </pre>
+</code>
+
+<aside class="notes">
+    String.raw
+</aside>
