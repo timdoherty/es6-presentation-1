@@ -152,3 +152,14 @@ body {
     box-shadow: none;
     font-size: 0.9em;
 }
+
+.reveal section img {
+    background: none;
+    border: none;
+    box-shadow: none;
+    -webkit-transition: all .2s linear;
+    -moz-transition: all .2s linear;
+    -ms-transition: all .2s linear;
+    -o-transition: all .2s linear;
+    transition: all .2s linear;
+}
