@@ -1,9 +1,12 @@
 <code>
     <pre>
-    let {a, b} = {a: 1, b: 2};
+    // ES 5
+    var obj = {a: 1, b: 2};
+    var a = obj.a;
+    var b = obj.b;
 
-    <span class="fragment">console.log(a); // 1
-    console.log(b); // 2</span>
+    <span class="fragment">// ES 6
+    let {a, b} = {a: 1, b: 2};</span>
     </pre>
 </code>
 
